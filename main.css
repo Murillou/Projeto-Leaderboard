@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Proxima Nova", sans-serif ;
+}
+
+#title{
+    text-align: center;
+    margin:  3% auto;
+    font-size: 25px;
+}
+
+#form{
+    text-align: center;
+}
+
+.inputs{
+    border: solid 1px rgba(252, 213, 115, 0.7);
+    margin-left: 0.3%;
+    width: 10%;
+    padding: 1%;
+}
+
+.inputs::placeholder{
+    opacity: 0.7;
+}
+
+#enviar{
+    padding: 1.05%;
+    border: none;
+    background-color: #ffc3c3;
+    color: #ffffff;
+}
+
+#enviar:hover{
+    background-color: #a463dc;
+    transform: scale(1.03);
+}
+
+#msg{
+    color: #f76262;
+}
+
+#rank{
+    width: 61%;
+    margin: 0 auto;
+    font-size: 20px;
+    letter-spacing: 1.4px;
+}
+
+.player{
+    background-color: #ffc3c3;
+    margin: 2% 0;
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#excluir{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    margin-left: 4%;
+}
+
+#excluir:hover{
+    background-color: #a463dc;
+    color: #ffffff;
+    transform: scale(1.03);
+}
